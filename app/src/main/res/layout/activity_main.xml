@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/abse"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="162dp"
+        android:layout_height="42dp"
+        android:autoSizeTextType="uniform"
+        android:background="#AA90D8"
+        android:rotationX="23"
+        android:text="0"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.344" />
+
+    <Button
+        android:id="@+id/present"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="present"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.763" />
+
+    <Button
+        android:id="@+id/absent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Absent"
+        app:layout_constraintBottom_toTopOf="@+id/absentc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.59000003" />
+
+    <TextView
+        android:id="@+id/absentc"
+        android:layout_width="156dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="220dp"
+        android:autoSizeTextType="uniform"
+        android:background="#AA90D8"
+        android:rotationX="23"
+        android:text="0"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.72" />
+
+</android.support.constraint.ConstraintLayout>
